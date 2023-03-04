@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="2" name="com.bestbuy.bestbuyinfo.ProductsCRUDTest" skipped="0" tests="4" time="0.14" timestamp="2023-03-04T12:57:07.962Z[Europe/London]"><testcase classname="com.bestbuy.bestbuyinfo.ProductsCRUDTest" name="This will create new product"><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.bestbuy.bestbuyinfo.ProductsCRUDTest.test001(ProductsCRUDTest.java:61)&#13;
+</system-err></testcase><testcase classname="com.bestbuy.bestbuyinfo.ProductsCRUDTest" name="Verify if product was created"><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.bestbuy.bestbuyinfo.ProductsCRUDTest.test002(ProductsCRUDTest.java:75)&#13;
+</system-err></testcase><testcase classname="com.bestbuy.bestbuyinfo.ProductsCRUDTest" name="Updating product information and verify the updated information"><error message="parameterValue cannot be null" type="java.lang.IllegalArgumentException">parameterValue cannot be null</error><system-err>parameterValue cannot be null&#13;
+io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)&#13;
+io.restassured.internal.RequestSpecificationImpl.pathParameter(RequestSpecificationImpl.groovy:560)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)&#13;
+io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)&#13;
+io.restassured.internal.RequestSpecificationImpl.pathParam(RequestSpecificationImpl.groovy:578)&#13;
+net.serenitybdd.rest.decorators.request.RequestSpecificationParametersConfigurations.pathParam(RequestSpecificationParametersConfigurations.java:188)&#13;
+net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.pathParam(RequestSpecificationDecorated.java:27)&#13;
+com.bestbuy.bestbuyinfo.ProductsCRUDTest.test004(ProductsCRUDTest.java:104)&#13;
+</system-err></testcase><testcase classname="com.bestbuy.bestbuyinfo.ProductsCRUDTest" name="Deleting product with id and verify that user is deleted"><error message="firstParameterValue cannot be null" type="java.lang.IllegalArgumentException">firstParameterValue cannot be null</error><system-err>firstParameterValue cannot be null&#13;
+io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)&#13;
+io.restassured.internal.RequestSpecificationImpl.pathParameters(RequestSpecificationImpl.groovy:567)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)&#13;
+io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)&#13;
+io.restassured.internal.RequestSpecificationImpl.pathParams(RequestSpecificationImpl.groovy:582)&#13;
+net.serenitybdd.rest.decorators.request.RequestSpecificationParametersConfigurations.pathParams(RequestSpecificationParametersConfigurations.java:194)&#13;
+net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.pathParams(RequestSpecificationDecorated.java:27)&#13;
+com.bestbuy.bestbuyinfo.ProductsCRUDTest.test005(ProductsCRUDTest.java:125)&#13;
+</system-err></testcase></testsuite>
